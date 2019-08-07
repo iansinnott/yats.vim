@@ -1,5 +1,8 @@
 YATS: Yet Another TypeScript Syntax
 ===================================
+
+[![Build Status](https://travis-ci.org/HerringtonDarkholme/yats.vim.svg?branch=master)](https://travis-ci.org/HerringtonDarkholme/yats.vim)
+
 ![screenshot](https://raw.githubusercontent.com/HerringtonDarkholme/yats.vim/master/screenshot.png)
 
 Yet Another TypeScript Syntax file for Vim, adapted from [YAJS](https://github.com/othree/yajs.vim).
@@ -12,6 +15,10 @@ Key differences:
 * Inherit Web API and DOM keywords from YAJS
 * Syntax fold. Fold long code block, semantically!
 * Remove old, unused syntax definitions.
+
+Config
+----
+`let g:yats_host_keyword = 1`: configure yats to highlight host specific keywords like `addEventListener`. Default is 1. Set it 0 to turn off highlighting.
 
 Credits
 -------
